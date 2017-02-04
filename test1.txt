@@ -12,3 +12,5 @@ git remote  查看远程仓库
 git remote -v 详细
 
 git remote add origin https://github.com/amber123013/Reflections.git 添加远程库
+
+git push origin master   master push的分支名，它将一直向前找到master的所有commit
