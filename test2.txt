@@ -1,1 +1,4 @@
 另一个文件
+git log --graph --oneline master coins     master和coins分支的信息
+
+git merge branch2 branch3 合并分支，合并之前应该切换到你想要commit的分支 例如 git checkout master
