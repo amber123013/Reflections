@@ -1,4 +1,8 @@
 git diff >比较工作目录 与暂存区 之间的区别
-git diff --staged >比较 暂存区与代码库之间的区别
+git diff --staged >比较 暂存区与最新提交的commit之间的区别
 
 git reset --hard 放弃工作目录或暂存区的所有更改 （此操作不可逆）
+
+git branch 查看分支
+git branch easy-mode (新建分支)
+git checkout easy-mode (切换到分支)
